@@ -1,0 +1,25 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: var(--header-height-s);
+  padding: 1rem 2rem;
+  padding-bottom: var(--header-height-s);
+  background-color: var(--surface-1);
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    width: calc(100vw - var(--sidebar-width));
+    margin-top: var(--header-height-md);
+    margin-left: auto;
+    padding-bottom: var(--header-height-md);
+  }
+}
+
+.post__items {
+  background-color: var(--surface-1);
+  width: 90%;
+  max-width: var(--post-max-width);
+  margin: 1rem auto;
+  padding: 1rem;
+}
