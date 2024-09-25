@@ -2,8 +2,6 @@
 
 ![Landing page of smolReddit on large screen](./assets/Preview-desktop.png)
 
-![Landing page of smolReddit on small screen](./assets/Preview-mobile.png)
-
 ## Brief
 
 This is a Reddit clone built as a part of the final project in the Codecademy Front-End Certification path. It is a single-page application built using React and React Router. The project aims to demonstrate the ability to build a complex web application using modern web technologies.
