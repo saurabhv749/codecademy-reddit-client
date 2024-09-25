@@ -27,7 +27,8 @@
   color: var(--slate-600);
 }
 
-.header__nav-logo {
+.header__nav-logo,
+.header__nav-logo svg {
   color: var(--primary-700);
 }
 .header__nav-logo:hover {

@@ -2,7 +2,7 @@ main {
   width: 100%;
   min-height: 100vh;
   margin-top: var(--header-height-s);
-  padding: 1rem 2rem;
+  padding: 1rem;
   padding-bottom: var(--header-height-s);
   background-color: var(--slate-50);
 }
@@ -18,8 +18,6 @@ main {
 
 .post__items {
   background-color: var(--slate-50);
-  width: 90%;
   max-width: var(--post-max-width);
   margin: 1rem auto;
-  padding: 1rem;
 }
