@@ -19,7 +19,7 @@
 
 - [x] Users can access your application at a URL
 
-- [ ] Users see an initial view of the data when first visiting the app
+- [x] Users see an initial view of the data when first visiting the app
 
 - [ ] Users can search the data using terms
 
@@ -29,7 +29,7 @@
 
 - [x] Users are delighted with a cohesive design system
 
-- [ ] Users are delighted with animations and transitions
+- [x] Users are delighted with animations and transitions
 
 - [ ] Users are able to leave an error state
 
