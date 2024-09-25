@@ -3,7 +3,7 @@
   padding: 8px 16px;
   word-wrap: break-word;
   box-shadow: 0 2px 4px var(--slate-300);
-  background: var(--surface-2);
+  background: var(--slate-50);
 }
 .comment__meta {
   display: flex;
@@ -11,12 +11,12 @@
   font-size: 0.9rem;
 }
 .comment__meata-author {
-  color: var(--red-500);
+  color: var(--slate-700);
+  font-weight: bold;
 }
 .comment__meata-time {
-  color: var(--slate-400);
+  color: var(--slate-600);
 }
-
 .comment__body {
   padding: 8px 0;
 }

@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import PostComments from "../features/post/PostComments";
 
 const PostPage = () => {
   const { subreddit, postId, postTitle } = useParams();
@@ -7,8 +8,7 @@ const PostPage = () => {
 
   return (
     <>
-      <h1>{title}</h1>
-      <p>JSON URL: {url}</p>
+      <PostComments title={title} url={url} />
     </>
   );
 };

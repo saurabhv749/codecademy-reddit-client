@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { COMMUNITIES } from "../config";
+import TopicPosts from "../features/topics/TopicPosts";
 
 const CommunityPage = () => {
   const { subreddit } = useParams();
@@ -8,8 +9,7 @@ const CommunityPage = () => {
 
   return (
     <>
-      <h1>{currentCommunity.topic}</h1>
-      <p>JSON URL: {url}</p>
+      <TopicPosts topic={currentCommunity.topic} url={url} />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import { useSearchParams } from "react-router-dom";
+import SearchResults from "../features/search/SearchResults";
 
 const SearchResultsPage = () => {
   const [params] = useSearchParams();
@@ -8,8 +9,7 @@ const SearchResultsPage = () => {
 
   return (
     <>
-      <h1>{title}</h1>
-      <p>JSON URL: {url}</p>
+      <SearchResults title={title} url={url} />
     </>
   );
 };

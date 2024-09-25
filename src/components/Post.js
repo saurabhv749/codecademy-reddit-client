@@ -41,7 +41,6 @@ const Post = ({ post }) => {
 
   return (
     <article className="post animate__animated animate__fadeIn">
-      <Upvotes ups={ups} />
       <div className="post__content">
         <PostHeader subredditName={subreddit_name_prefixed}>
           <h1>{title}</h1>
@@ -58,6 +57,7 @@ const Post = ({ post }) => {
           num_comments={num_comments}
         />
       </div>
+      <Upvotes ups={ups} />
     </article>
   );
 };
