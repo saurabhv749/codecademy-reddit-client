@@ -1,0 +1,22 @@
+.comment {
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  word-wrap: break-word;
+  box-shadow: 0 2px 4px var(--slate-300);
+  background: var(--surface-2);
+}
+.comment__meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.comment__meata-author {
+  color: var(--red-500);
+}
+.comment__meata-time {
+  color: var(--slate-400);
+}
+
+.comment__body {
+  padding: 8px 0;
+}

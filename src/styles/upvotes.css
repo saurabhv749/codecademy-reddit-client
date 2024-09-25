@@ -1,0 +1,37 @@
+.post__voting {
+  display: flex;
+  padding: 16px 8px;
+}
+.post__voting,
+.post__vote-button,
+.post__vote-count {
+  color: var(--slate-600);
+}
+.post__vote-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.post__vote-count {
+  font-weight: bold;
+  margin: 4px;
+}
+
+.post__voting.upvoted .button-upvote,
+.post__voting.upvoted .post__vote-count {
+  color: var(--color-upvote);
+}
+.post__voting.downvoted .button-downvote,
+.post__voting.downvoted .post__vote-count {
+  color: var(--color-downvote);
+}
+
+@media screen and (min-width: 960px) {
+  .post__voting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
