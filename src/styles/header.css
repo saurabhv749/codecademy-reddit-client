@@ -3,8 +3,8 @@
   top: 0;
   width: 100vw;
   z-index: 1;
-  background: var(--surface-1);
-  border-bottom: 1px solid var(--bg);
+  background: var(--slate-50);
+  border-bottom: 1px solid var(--slate-200);
   padding: 16px 32px;
 }
 .header__nav {
@@ -14,22 +14,24 @@
   padding-bottom: 1rem;
 }
 .header__nav-button {
-  color: var(--slate-300);
-  background-color: var(--surface-2);
+  background-color: var(--slate-100);
+  color: var(--slate-500);
   padding: 4px;
 }
 .header__nav-button:hover {
-  color: var(--slate-400);
-  background-color: var(--surface-3);
+  background-color: var(--slate-200);
+  color: var(--slate-600);
 }
 .header__nav-button:active,
 .header__nav-button:focus-visible {
-  color: var(--slate-500);
+  color: var(--slate-600);
 }
 
-.header__nav-logo,
-.header__nav-logo svg {
-  color: var(--red-300);
+.header__nav-logo {
+  color: var(--primary-700);
+}
+.header__nav-logo:hover {
+  color: var(--primary-800);
 }
 .header__nav-logo-text {
   display: none;
